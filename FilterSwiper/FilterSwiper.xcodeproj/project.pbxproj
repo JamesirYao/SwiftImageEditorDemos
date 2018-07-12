@@ -12,8 +12,8 @@
 		4FE4A8A320F601A500A750EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE4A8A120F601A500A750EF /* Main.storyboard */; };
 		4FE4A8A520F601B100A750EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE4A8A420F601B100A750EF /* Assets.xcassets */; };
 		4FE4A8A820F601B100A750EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE4A8A620F601B100A750EF /* LaunchScreen.storyboard */; };
-		4FE4A8B020F601FB00A750EF /* FilterSwiperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4A8AF20F601FB00A750EF /* FilterSwiperViewController.swift */; };
-		4FE4A8B220F62AD400A750EF /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4A8B120F62AD400A750EF /* FilterViewController.swift */; };
+		4FE4A8B420F7350100A750EF /* FilterSwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4A8B320F7350100A750EF /* FilterSwiperView.swift */; };
+		4FE4A8B620F7392500A750EF /* FilterFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4A8B520F7392500A750EF /* FilterFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		4FE4A8A420F601B100A750EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE4A8A720F601B100A750EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FE4A8A920F601B100A750EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE4A8AF20F601FB00A750EF /* FilterSwiperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSwiperViewController.swift; sourceTree = "<group>"; };
-		4FE4A8B120F62AD400A750EF /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		4FE4A8B320F7350100A750EF /* FilterSwiperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSwiperView.swift; sourceTree = "<group>"; };
+		4FE4A8B520F7392500A750EF /* FilterFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				4FE4A89D20F601A500A750EF /* AppDelegate.swift */,
+				4FE4A8B520F7392500A750EF /* FilterFunctions.swift */,
 				4FE4A89F20F601A500A750EF /* ViewController.swift */,
-				4FE4A8AF20F601FB00A750EF /* FilterSwiperViewController.swift */,
-				4FE4A8B120F62AD400A750EF /* FilterViewController.swift */,
+				4FE4A8B320F7350100A750EF /* FilterSwiperView.swift */,
 				4FE4A8A120F601A500A750EF /* Main.storyboard */,
 				4FE4A8A420F601B100A750EF /* Assets.xcassets */,
 				4FE4A8A620F601B100A750EF /* LaunchScreen.storyboard */,
@@ -142,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE4A8A020F601A500A750EF /* ViewController.swift in Sources */,
-				4FE4A8B020F601FB00A750EF /* FilterSwiperViewController.swift in Sources */,
-				4FE4A8B220F62AD400A750EF /* FilterViewController.swift in Sources */,
 				4FE4A89E20F601A500A750EF /* AppDelegate.swift in Sources */,
+				4FE4A8B420F7350100A750EF /* FilterSwiperView.swift in Sources */,
+				4FE4A8B620F7392500A750EF /* FilterFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
